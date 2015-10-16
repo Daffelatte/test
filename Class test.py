@@ -11,11 +11,13 @@ class dog(object):
     def bark(self):
         if self.race =="pudel":
             return "viff!"
-        elif self.race =="shepherd":
+        elif self.race == "shepherd":
             return "VOFF!!"
 
-dog1 = dog(name="Molly",race="pudel")
+dog1 = dog(name="Molly", race="pudel")
 dog2 = dog(name="Bruno", race="shepherd")
+dog3 = dog(name="Freddy", race="shepherd")
 
 print dog1.bark()
 print dog2.bark()
+print dog3.bark()
